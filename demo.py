@@ -32,7 +32,7 @@ while True:
 	for key in desc_to_cat.keys():
 		if d in key:
 			matched_desc.append(key)
-	print('Please specify your category description choice')
+	print('Please enter the number cooresponding to the category descriptions below')
 	idx = 0
 	for key in matched_desc:
 		idx += 1
@@ -49,7 +49,7 @@ while True:
 	for key in lower_codes.keys():
 		full_descs.append(key)
 	
-	print('Please specify your detailed description choice')
+	print('Please enter the number cooresponding to detailed description choice')
 	idx = 0
 	for key in full_descs:
 		idx += 1
